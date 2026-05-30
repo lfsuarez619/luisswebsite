@@ -33,7 +33,7 @@ export const projects: Project[] = [
         description: `IN-PROGRESS. A personal film-tracking web application focused on clean writing, protected user workflows, and a text-first diary experience.
 (TEST USERNAME: test3@example.com  TEST PASSWORD: password123)`,
         stack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-        year: "2026-present",
+        year: "2026 - Present",
         imageSrc: "projects/film-diary.png",
         liveUrl: "https://film-diary-eight.vercel.app/login",
     },
