@@ -103,7 +103,7 @@ main {
     margin: 0;
     max-width: 30rem;
     color: var(--muted);
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.85;
 }
 
@@ -340,7 +340,7 @@ main {
 .about-section__body p {
     margin: 0 0 1.5rem;
     color: var(--muted);
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.9;
 }
 
@@ -528,6 +528,7 @@ main {
 .photography-section__intro {
     margin: 0 0 2.5rem;
     max-width: 38rem;
+    font-size: 1.1rem;
     color: var(--muted);
     line-height: 1.85;
 }
@@ -617,6 +618,7 @@ main {
 .videography-section__intro {
     margin: 0 0 2.5rem;
     max-width: 38rem;
+    font-size: 1.1rem;
     color: var(--muted);
     line-height: 1.85;
 }
@@ -696,7 +698,8 @@ main {
 
 .contact-section__intro {
     margin: 0 0 2.5rem;
-    max-width: 34rem;
+    max-width: 38rem;
+    font-size: 1.1rem;
     color: var(--muted);
     line-height: 1.85;
 }

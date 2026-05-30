@@ -23,7 +23,7 @@ export default function About() {
 
                     <p>
                         Alongside the traditional trades. He also commits to establish
-                        myself as a voice of avant garde UI/UX design.
+                        himself as an emerging voice of avant garde UI/UX design.
                     </p>
 
                 </div>
