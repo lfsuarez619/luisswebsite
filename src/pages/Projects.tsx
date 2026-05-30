@@ -1,16 +1,19 @@
 import { projects } from "../data/projects";
 
 export default function Projects() {
+    const sortedProjects = [...projects].sort((a, b) => {
+        return Number(b.id) - Number(a.id);
+    });
+
     return (
         <main className="projects-page">
             <section className="projects-section" aria-labelledby="projects-title">
-
                 <h1 id="projects-title" className="projects-section__title">
                     Projects and client work
                 </h1>
 
                 <div className="projects-grid">
-                    {projects.map((project) => (
+                    {sortedProjects.map((project) => (
                         <article key={project.id} className="project-card">
                             <div className="project-card__top">
                                 <h2 className="project-card__title">{project.title}</h2>

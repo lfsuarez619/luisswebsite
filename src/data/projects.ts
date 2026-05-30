@@ -11,16 +11,6 @@ export type Project = {
 export const projects: Project[] = [
     {
         id: 1,
-        title: "Film Diary",
-        description: `A personal film-tracking web application focused on clean writing, protected user workflows, and a text-first diary experience.
-(USERNAME: test3@example.com  PASSWORD: password123)`,
-        stack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-        year: "2026",
-        imageSrc: "projects/film-diary.png",
-        liveUrl: "https://film-diary-eight.vercel.app/login",
-    },
-    {
-        id: 2,
         title: "Invoice API Assessment",
         description:
             "A REST API and relational database project for invoice orders, line items, and secure request handling with spec-matching JSON responses.",
@@ -28,6 +18,16 @@ export const projects: Project[] = [
         year: "2026",
         imageSrc: "projects/invoice-api.png",
         liveUrl: "https://github.com/lfsuarez619/ace-dev-candidate-test",
+    },
+    {
+        id: 2,
+        title: "Film Diary",
+        description: `IN-PROGRESS. A personal film-tracking web application focused on clean writing, protected user workflows, and a text-first diary experience.
+(USERNAME: test3@example.com  PASSWORD: password123)`,
+        stack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+        year: "2026",
+        imageSrc: "projects/film-diary.png",
+        liveUrl: "https://film-diary-eight.vercel.app/login",
     },
     {
         id: 3,
