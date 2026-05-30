@@ -440,6 +440,15 @@ main {
     white-space: pre-line;
 }
 
+.project-card__description-link {
+    color: #e1e1e1;
+    text-decoration: none;
+}
+
+.project-card__description-link:hover {
+    text-decoration: underline;
+}
+
 .project-card__stack {
     margin: 0;
     padding: 0;

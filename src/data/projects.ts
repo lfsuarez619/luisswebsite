@@ -2,6 +2,10 @@ export type Project = {
     id: number;
     title: string;
     description: string;
+    descriptionLink?: {
+        text: string;
+        url: string;
+    };
     stack: string[];
     year: string;
     imageSrc: string;
@@ -13,7 +17,11 @@ export const projects: Project[] = [
         id: 1,
         title: "Invoice API Assessment",
         description:
-            "A REST API and relational database project for invoice orders, line items, and secure request handling with spec-matching JSON responses.",
+            "A REST API and relational database project for invoice orders, line items, and secure request handling with spec-matching JSON responses. Made for Ace Parking",
+        descriptionLink: {
+            text: "Ace Parking",
+            url: "https://www.aceparking.com/",
+        },
         stack: ["Node.js", "Express", "SQL Server", "Docker"],
         year: "2026",
         imageSrc: "projects/invoice-api.png",
@@ -23,9 +31,9 @@ export const projects: Project[] = [
         id: 2,
         title: "Film Diary",
         description: `IN-PROGRESS. A personal film-tracking web application focused on clean writing, protected user workflows, and a text-first diary experience.
-(USERNAME: test3@example.com  PASSWORD: password123)`,
+(TEST USERNAME: test3@example.com  TEST PASSWORD: password123)`,
         stack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-        year: "2026",
+        year: "2026-present",
         imageSrc: "projects/film-diary.png",
         liveUrl: "https://film-diary-eight.vercel.app/login",
     },

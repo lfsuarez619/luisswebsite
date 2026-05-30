@@ -35,7 +35,24 @@ export default function Projects() {
                                 />
                             </a>
 
-                            <p className="project-card__description">{project.description}</p>
+                            <p className="project-card__description">
+                                {project.descriptionLink ? (
+                                    <>
+                                        {project.description.split(project.descriptionLink.text)[0]}
+                                        <a
+                                            href={project.descriptionLink.url}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="project-card__description-link"
+                                        >
+                                            {project.descriptionLink.text}
+                                        </a>
+                                        {project.description.split(project.descriptionLink.text)[1]}
+                                    </>
+                                ) : (
+                                    project.description
+                                )}
+                            </p>
 
                             <ul
                                 className="project-card__stack"
